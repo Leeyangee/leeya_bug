@@ -1,2 +1,2 @@
 # leeya_bug
-This is my payload repository
+This is my 0day verifying payload repository
