@@ -1,10 +1,10 @@
-Vulnerability Product: abupy v0.4.0  
-Vulnerability version: v0.4.0  
+Vulnerability Product: abupy <= v0.4.0  
+Vulnerability version: <= v0.4.0  
 Vulnerability type: SQL Injection  
 Vulnerability Details:  
 Vulnerability location: abupy.MarketBu.ABuSymbol.search_to_symbol_dict
 
-SQL Injection in abupy v0.4.0 causes arbitrary SQL code execution 
+SQL Injection in abupy <= v0.4.0 causes arbitrary SQL code execution 
 
 ## [](#header-3)PROVE: 
 
