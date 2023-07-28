@@ -32,6 +32,7 @@ proved sql code execution
 ## [](#header-3)HARM: 
 
 Programmers may mistakenly use the functions in this library as part of the backend of the web application, allowing attackers to call the functions and return sensitive database data.  
+
 The above payload is just an example, attackers can construct payload to obtain complete database sensitive information in a way similar to sql blind injection
 
 discovered by leeya_bug
