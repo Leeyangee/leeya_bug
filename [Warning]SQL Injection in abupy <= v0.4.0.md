@@ -32,7 +32,7 @@ proved sql code execution
 
 ## [](#header-3)HARM: 
 
-Programmers may mistakenly use the functions in this library as part of the backend of the web application, allowing attackers to call the functions and return sensitive database data.  
+Programmers may mistakenly use abupy.MarketBu.ABuSymbol.search_to_symbol_dict in this library as part of the backend of the web application, allowing attackers to call the function and return sensitive database data.  
 
 The above payload is just an example, attackers can construct a complex payload to obtain complete database sensitive information in a way similar to sql blind injection
 
