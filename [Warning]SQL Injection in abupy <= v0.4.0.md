@@ -30,7 +30,7 @@ you can find the result is `{'TROVW': 'TROVAGENE INC'}`
 proved the result is determined by payload  
 proved sql code execution  
 
-poc: https://github.com/Leeyangee/leeya_bug/blob/main/abupy_poc.py
+POC: https://github.com/Leeyangee/leeya_bug/blob/main/abupy_poc.py
 
 ## [](#header-3)HARM: 
 
