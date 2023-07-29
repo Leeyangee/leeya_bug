@@ -30,6 +30,8 @@ you can find the result is `{'TROVW': 'TROVAGENE INC'}`
 proved the result is determined by payload  
 proved sql code execution  
 
+poc: https://github.com/Leeyangee/leeya_bug/blob/main/abupy_poc.py
+
 ## [](#header-3)HARM: 
 
 Programmers may mistakenly use abupy.MarketBu.ABuSymbol.search_to_symbol_dict in this library as part of the backend of the web application, allowing attackers to call the function and return sensitive database data.  
