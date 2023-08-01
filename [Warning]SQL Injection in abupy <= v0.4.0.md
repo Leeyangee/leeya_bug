@@ -22,7 +22,7 @@ Secondly import abupy.MarketBu.ABuSymbol, and call abupy.MarketBu.ABuSymbol.sear
 import abupy.MarketBu.ABuSymbol
 print(abupy.MarketBu.ABuSymbol.search_to_symbol_dict("us10101' union select case when sqlite_version() = '3.31.1' then 'usJASNW' else 'usTROVW' end where ''='"))
 ```
-(abupy.MarketBu.ABuSymbol.search_to_symbol_dict is a functional api which author mentioned in the comments of the function, It is legal and normal for users and programmers to call this function, proof: https://github.com/bbfamily/abu/blob/master/abupy/MarketBu/ABuSymbol.py -> line: 200)  
+abupy.MarketBu.ABuSymbol.search_to_symbol_dict is a functional api which author mentioned in the comments of the function, It is legal and normal for users and programmers to call this function, proof: https://github.com/bbfamily/abu/blob/master/abupy/MarketBu/ABuSymbol.py -> line: 200 ↓ 
 ```py
     symbol搜索对外接口，全匹配symbol code，拼音匹配symbol，别名匹配，模糊匹配公司名称，产品名称等信息
     eg：
