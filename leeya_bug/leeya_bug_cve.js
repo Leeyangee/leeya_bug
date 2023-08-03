@@ -1,2 +1,4 @@
 
-data = {}
+data = {};
+
+alert(1);
