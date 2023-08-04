@@ -28,6 +28,8 @@ Finally you can find the result is `{'JASNW': 'JASON INDS INC'}`
 if you replace `sqlite_version() = '3.31.1'` with `sqlite_version() != '3.31.1'`  
 you can find the result is `{'TROVW': 'TROVAGENE INC'}`
 
+Of course, you can also fill in other relational expressions here to verify the vulnerability, such as `1 = 1`, `1 != 1`
+
 proved the result is determined by payload  
 proved sql code execution  
 
