@@ -1,4 +1,4 @@
-Vulnerability Product: abupy <= v0.4.0  
+Vulnerability Product: abupy <= v0.4.0  [https://github.com/bbfamily/abu](https://github.com/bbfamily/abu)  
 Vulnerability version: <= v0.4.0  
 Vulnerability type: SQL Injection  
 Vulnerability Details:  
