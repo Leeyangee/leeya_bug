@@ -40,7 +40,8 @@ An unfiltered dangerous function (line 681) appeared in API function convert_sha
 
 ## [](#header-3)FIX: 
 
-1、do not use eval()
-2、filter more
+1、do not use eval()  
+2、filter more  
 
 discovered by leeya_bug
+2023/12/15
