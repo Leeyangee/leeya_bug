@@ -3,7 +3,7 @@ Vulnerability Product: Baidu.Inc PaddlePaddle's paddle
 Vulnerability version: <= 2.5.2  
 Vulnerability type: Command Execution  
 Vulnerability vender: Baidu.Inc  
-Vulnerability Details:  discovered by leeya_bug
+Vulnerability Details:  discovered by leeya_bug  
 Vulnerability location: paddle/jit/dy2static/convert_operators.py  
 
 Baidu.Inc PaddlePaddle's Official lib paddle exists Command Execute Vulnerability, Easy to cause User's devices to be hijacked by attackers.
