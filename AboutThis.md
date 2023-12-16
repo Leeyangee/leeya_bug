@@ -35,7 +35,7 @@ paddle.jit.dy2static.convert_operators.convert_shape_compare('prefix','+ str(__i
 
 ## [](#header-3)REASON: 
 
-An unfiltered dangerous function (line 681) appeared in API function convert_shape_compare of path paddle/jit/dy2static/convert_operators.py, allowing attackers to carefully construct payloads to bypass the filter and result in user's command execution
+There is an unfiltered dangerous function (line 681) in API:convert_shape_compare of path paddle/jit/dy2static/convert_operators.py, allowing attackers to construct payloads to bypass the filter and result in user's command execution
 ![图片](https://raw.githubusercontent.com/Leeyangee/leeya_bug/main/AboutThis2.png)  
 
 ## [](#header-3)FIX: 
