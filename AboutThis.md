@@ -1,12 +1,12 @@
 
 Vulnerability Product: Baidu.Inc PaddlePaddle's paddle  
-Vulnerability version: <= 2.5.2  
-Vulnerability type: Command Execution  
-Vulnerability vender: Baidu.Inc  
+Vulnerability Version: <= 2.5.2  
+Vulnerability Type: Command Execution  
+Vulnerability Vender: Baidu.Inc  
 Vulnerability Details:  discovered by leeya_bug  
-Vulnerability location: paddle/jit/dy2static/convert_operators.py  
+Vulnerability Location: paddle/jit/dy2static/convert_operators.py  
 
-Baidu.Inc PaddlePaddle's Official lib paddle exists Command Execute Vulnerability, Easy to cause User's devices to be hijacked by attackers.
+Baidu.Inc PaddlePaddle's Official lib paddle exists Command Execute Vulnerability, Easy to cause user's devices to be hijacked by attackers.
 
 ## [](#header-3)PROVE: 
 
@@ -44,4 +44,8 @@ There is an unfiltered dangerous function (line 681) in API:convert_shape_compar
 2、filter more  
 
 discovered by leeya_bug  
-2023/12/15
+2023/12/15  
+
+-------------------
+2023/12/16 update: uppercase letter 
+
