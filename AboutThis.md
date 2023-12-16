@@ -51,5 +51,5 @@ discovered by leeya_bug
 2023/12/15  
 
 -------------------
-2023/12/16 update: uppercase letter 
+2023/12/16 update: uppercase letter, add basic information.
 
