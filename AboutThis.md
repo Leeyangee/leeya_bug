@@ -6,6 +6,10 @@ Vulnerability Vender: Baidu.Inc
 Vulnerability Details:  discovered by leeya_bug  
 Vulnerability Location: paddle/jit/dy2static/convert_operators.py  
 
+## [](#header-3)Basic Info:
+
+Baidu,Inc is a Chinese multinational technology company specializing in Internet-related services, products, and artificial intelligence(AI), headquartered in Beijing's Haidian District. It is one of the largest AI and Internet companies in the world. The holding company of the group is incorporated in the Cayman Island.  
+
 Baidu.Inc PaddlePaddle's Official lib paddle exists Command Execute Vulnerability, Easy to cause user's devices to be hijacked by attackers.
 
 ## [](#header-3)PROVE: 
