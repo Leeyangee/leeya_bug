@@ -62,7 +62,7 @@ But it is difficult to make `/tmp/BWQL_LOG` exist, so no further discussion will
 
 ## [](#header-3)HARM: 
 
-When an attacker has a low privilege account of the system, the attacker could trigger SQL injection through the `bwdpi_appStat` in `appGet.cgi`, attacker could SQL Inject by blind injection (such as time based injection, boolean based injection), and even cause RCE in specified situation
+When an attacker has a low privilege account of the system, the attacker could trigger SQL injection through the `bwdpi_appStat` in `appGet.cgi`(GT-AC5300) -> `sqlite_Stat_hook` in `/usr/lib/libbwdpi_sql.so`, attacker could SQL Inject by blind injection (such as time based injection, boolean based injection), and even cause RCE in specified situation
 
 ## [](#header-3)A Possible Poc: 
 
