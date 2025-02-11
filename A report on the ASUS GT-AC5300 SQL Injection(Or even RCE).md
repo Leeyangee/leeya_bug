@@ -6,7 +6,7 @@ Vulnerability Test Firmware Version: GT-AC5300_3.0.0.4_386_51569-g9ee6a79_ubi.w 
 Vulnerability type: SQL Injection(Or even RCE in specified situation)   
 Vulnerability Authentication Requirement: Low privilege  
 
-There is a SQL Injection in ASUS specified lib `/usr/lib/libbwdpi_sql.so`. When an attacker has a low privilege account of the remote router system, the attacker could trigger SQL injection through the lib api: `/usr/lib/libbwdpi_sql.so`.`sqlite_Stat_hook`(On the GT-AC5300 the remote attacker calling path is `/usr/sbin/httpd`.`appGet.cgi`.`bwdpi_appStat` -> `/usr/lib/libbwdpi_sql.so`.`sqlite_Stat_hook`), and even cause RCE in specified situation
+There is a SQL Injection(Or even RCE in specified situation) in ASUS specified lib `/usr/lib/libbwdpi_sql.so`. When an attacker has a low privilege account of the remote router system, the attacker could trigger SQL injection through the lib api: `/usr/lib/libbwdpi_sql.so`.`sqlite_Stat_hook`(On the GT-AC5300 the remote attacker calling path is `/usr/sbin/httpd`.`appGet.cgi`.`bwdpi_appStat` -> `/usr/lib/libbwdpi_sql.so`.`sqlite_Stat_hook`), and even cause RCE in specified situation
 
 | Contents |
 |--------|
