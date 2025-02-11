@@ -1,5 +1,5 @@
 
-# [](#header-3)A report on the ASUS GT-AC5300 Vuls in /usr/lib/libbwdpi_sql.so sqlite_Stat_hook caused SQL Injection in multiple series(Or even RCE in specified situation)
+# [](#header-3)A report on the ASUS Routers Vuls in /usr/lib/libbwdpi_sql.so sqlite_Stat_hook caused SQL Injection in multiple series(Or even RCE in specified situation)
 
 Vulnerability Product: GT-AC5300、GT-AC2900、RT-AC5300、specified versions in GT-AX and other versions that have not yet been discovered    
 Vulnerability Test Firmware Version: GT-AC5300_3.0.0.4_386_51569-g9ee6a79_ubi.w (latest)  
