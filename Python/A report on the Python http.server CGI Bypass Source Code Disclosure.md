@@ -109,7 +109,8 @@ This mismatch in logic results in a vulnerability: an attacker can bypass CGI re
 ## [](#header-3)My Info
 
 This vulnerability was submitted for research purposes.  
-I guarantee with my personality that the above reproduction process is true and effective on the Python 3.12.10.
+I give my personal assurance that the attack process described above is authentic and works on Python 3.12.10. My name is leeya_bug and my email is leeyang928320@gmail.com
 
 leeya_bug  
 Now work as IoT/Kernel Security Researcher in a Chinese National-Owned Institude  
+
