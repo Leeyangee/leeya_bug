@@ -1,7 +1,8 @@
 
 # [](#header-3)A report on the Python http.server CGI Bypass: Source Code Disclosure
 
-Vulnerability Product: Python   
+Vulnerability Product: CPython   
+Vulnerability Vendor: Python Software Foundation
 Vulnerability type: CGI resolve bypass and source code/program disclosure  
 Vulnerability Version:   
 &nbsp;&nbsp;&nbsp;&nbsp;Affected — from Python 3.0.0 below 3.0.1  
@@ -113,4 +114,5 @@ I give my personal assurance that the attack process described above is authenti
 
 leeya_bug  
 Now work as IoT/Kernel Security Researcher in a Chinese National-Owned Institude  
+
 
