@@ -2,7 +2,7 @@
 # [](#header-3)A report on the Python http.server CGI Bypass: Source Code Disclosure
 
 Vulnerability Product: CPython   
-Vulnerability Vendor: Python Software Foundation
+Vulnerability Vendor: Python Software Foundation  
 Vulnerability type: CGI resolve bypass and source code/program disclosure  
 Vulnerability Version:   
 &nbsp;&nbsp;&nbsp;&nbsp;Affected — from Python 3.0.0 below 3.0.1  
@@ -20,7 +20,7 @@ Vulnerability Version:
 &nbsp;&nbsp;&nbsp;&nbsp;Affected (Deprecated) — from 3.12.0 below 3.12.11  
 Vulnerability Authentication Requirement: No  
 Notice: May only affect the vast majority of versions of Windows Operation System
-Discovered by: leeya_bug
+Discovered by: leeya_bug  
 
 
 Python’s http.server module is a lightweight HTTP server that originated in the early standard library, combining the functionality of the old SimpleHTTPServer (for serving static files) and CGIHTTPServer (for running Common Gateway Interface scripts). Its roots lie in the CGI standard of the 1990s, which allowed web servers to execute external scripts (often in Python or Perl) to generate dynamic content. Within http.server, the class CGIHTTPRequestHandler enabled developers to place scripts in a designated directory (such as /cgi-bin/) and have them executed in response to HTTP requests, simulating the behavior of traditional web servers.  
@@ -114,5 +114,6 @@ I give my personal assurance that the attack process described above is authenti
 
 leeya_bug  
 Now work as IoT/Kernel Security Researcher in a Chinese National-Owned Institude  
+
 
 
